@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do contêiner de login */
+.login-container {
+    background-image: url('sherlock-holmes-social__1_'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* A imagem cobre todo o espaço disponível */
+    background-position: center; /* A imagem é centralizada no contêiner */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização do formulário de login */
+form {
+    background: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+}
+
+/* Estilização dos campos de entrada de texto e senha */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc; /* Borda cinza claro */
+    box-sizing: border-box; /* A largura e altura incluem padding e border */
+}
+
+/* Estilização do botão de enviar */
+button {
+    background-color: #4CAF50; /* Cor verde do botão */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Mudança de opacidade no hover para dar feedback visual ao usuário */
+button:hover {
+    opacity: 0.8;
+}
